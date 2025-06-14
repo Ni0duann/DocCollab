@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev:docsystem": "pnpm --filter docsystem run dev",
     "commit": "git add . && git-cz",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
