@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev:docsystem": "pnpm --filter docsystem run dev",
+    "dev:docserver": "pnpm --filter docserver run dev",
     "commit": "git add . && git-cz",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
